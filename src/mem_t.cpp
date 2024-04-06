@@ -7,7 +7,7 @@
 
 static double size_division(double val) {
 
-	if ( (int)val < 103 )
+	if ((int)val < 103 )
 		return 0;
 
 	val = val / 1024;
