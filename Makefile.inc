@@ -1,5 +1,6 @@
-MEM_DIR?=mem
-INCLUDES += -I./$(MEM_DIR)/include
+MEM_DIR?=./mem
+INCLUDES += -I$(MEM_DIR)/include
+
 MEM_OBJS:= \
 	objs/mem_t.o
 

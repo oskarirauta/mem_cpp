@@ -1,13 +1,15 @@
-# mem_cpp
+[![License:MIT](https://img.shields.io/badge/License-MIT-blue?style=plastic)](LICENSE)
+[![C++ CI build](../../actions/workflows/build.yml/badge.svg)](../../actions/workflows/build.yml)
+### mem_cpp
+
 Minimal C++ library for monitor free/used memory on Linux through /proc/meminfo
 
-[![C++ CI build](https://github.com/oskarirauta/mem_cpp/actions/workflows/build.yml/badge.svg)](https://github.com/oskarirauta/mem_cpp/actions/workflows/build.yml)
-
-### Depends
+## <sub>Depends</sub>
 
  - [common_cpp](https://github.com/oskarirauta/common_cpp)
 
-### Importing
+## <sub>Importing</sub>
+
  - clone common_cpp as a submodule to common
  - clone logger_cpp as a submodule to logger
  - clone mem_cpp as a submodule to mem
@@ -17,10 +19,6 @@ Minimal C++ library for monitor free/used memory on Linux through /proc/meminfo
 Paths are modifiable, check Makefiles. For example code, clone this repository
 with --recursive-submodules enabled.
 
-### Example
+## <sub>Example</sub>
 
 Sample code is provided
-
-### License
-
-MIT
